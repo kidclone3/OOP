@@ -9,6 +9,8 @@ class SquarePattern {
     int size;
     System.out.print("Enter the size: ");
     size = in.nextInt();
+    in.close();
+
     for (int row = 1; row <= size; row++) {
       for (int col = 1; col <= size; col++) {
         System.out.print("#");
@@ -40,6 +42,8 @@ class CheckerPattern {
     int size;
     System.out.print("Enter the size: ");
     size = in.nextInt();
+    in.close();
+
     for (int row = 1; row <= size; row++) {
       if (row % 2 == 0) {
         System.out.print(" ");
@@ -60,6 +64,8 @@ class TimeTable {
     int size;
     System.out.print("Enter the size: ");
     size = in.nextInt();
+    in.close();
+
     for (int col = 1; col  <= size; ++ col) {
       if (col == 1) {
         System.out.printf("%2c |", '*');
@@ -89,6 +95,7 @@ class TriangularPattern {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the size: ");
     int size = in.nextInt();
+    in.close();
 
     System.out.println("Type A");
     TriangularPatternA(size);
@@ -155,6 +162,7 @@ class BoxPattern {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the size: ");
     int size = in.nextInt();
+    in.close();
 
     System.out.println("Box A: ");
     BoxPatternA(size);
@@ -229,6 +237,7 @@ class HillPattern {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the rows: ");
     int numberRows = in.nextInt();
+    in.close();
 
     System.out.println("Hill A");
     HillPatternA(numberRows);
