@@ -90,7 +90,7 @@ class PerfectPrimeFactorList {
     int count = 0;
     System.out.println("These numbers are equals to the product of prime factors : ");
     for (int idx = 3; idx <= number; idx++)
-      if (PerfectPrimeFactorList(idx)) {
+      if (perfectPrimeFactorList(idx)) {
         System.out.print(idx + " ");
         count++;
       }
@@ -101,7 +101,7 @@ class PerfectPrimeFactorList {
     System.out.println("%)");
   }
 
-  public static boolean PerfectPrimeFactorList(int aPosInt) {
+  public static boolean perfectPrimeFactorList(int aPosInt) {
     double product = 1;
     for (int idx = 2; idx <= aPosInt / 2; idx++) {
       if (aPosInt % idx == 0 && PrimeList.isPrime(idx)) product *= idx;
