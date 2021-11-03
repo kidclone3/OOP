@@ -16,7 +16,6 @@ public class TestCircle {
     System.out.println("color is: " + circle4.getColor());
 
     Circle circle5 = new Circle(5.5);
-    System.out.println(circle5.toString());
     System.out.println(circle5);
   }
 }
