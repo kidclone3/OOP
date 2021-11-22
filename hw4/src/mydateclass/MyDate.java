@@ -6,13 +6,13 @@ public class MyDate {
   private int year;
   private int month;
   private int day;
-  private String[] MONTHS = {
+  static final String[] MONTHS = {
     "Zero", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
   };
-  private String[] DAYS = {
+  static final String[] DAYS = {
     "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
   };
-  private int[] DAY_IN_MONTHS = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+  static final int[] DAY_IN_MONTHS = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
   public MyDate() {}
 

@@ -53,7 +53,7 @@ public class MyTime {
     this.second = second;
   }
 
-  public MyTime nextSecond() {
+  public MyTime nextSecond() throws IllegalArgumentException{
     try {
       setTime(hour, minute, ++second);
       return this;

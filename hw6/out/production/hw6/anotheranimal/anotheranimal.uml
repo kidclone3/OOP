@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>anotheranimal</OriginalElement>
+  <nodes>
+    <node x="101.5" y="0.0">anotheranimal.Animal</node>
+    <node x="0.0" y="283.0">anotheranimal.BigDog</node>
+    <node x="190.0" y="141.5">anotheranimal.Cat</node>
+    <node x="379.0" y="0.0">anotheranimal.TestAnimal</node>
+    <node x="0.0" y="130.0">anotheranimal.Dog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="anotheranimal.Cat" target="anotheranimal.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="262.0" y="105.0" />
+      <point x="173.5" y="105.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="anotheranimal.BigDog" target="anotheranimal.Dog" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="anotheranimal.Dog" target="anotheranimal.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="85.0" y="105.0" />
+      <point x="173.5" y="105.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="275.0" y="193.0" />
+  <SelectedNodes>
+    <node>anotheranimal.Animal</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
