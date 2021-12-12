@@ -35,7 +35,7 @@ abstract class Shape {
   public abstract double getPerimeter();
 
   public String toString() {
-    return String.format("Shape [color = \"%s\", filled = %s]", color, Boolean.toString(filled));
+    return String.format("Shape [color = \"%s\", filled = %s]", color, filled);
   }
 
 }

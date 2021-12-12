@@ -1,7 +1,7 @@
 package geometricobject;
 
 public interface GeometricObject {
-  public double getArea();
+  double getArea();
 
-  public double getPerimeter();
+  double getPerimeter();
 }
