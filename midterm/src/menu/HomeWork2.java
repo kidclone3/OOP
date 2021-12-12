@@ -10,6 +10,7 @@ public class HomeWork2 {
     System.out.println("3. Exercises on Algorithms - Sorting and Searching");
     System.out.println("4. Exercises on Algorithms - Number Theory");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     switch (select) {
       case 1:
@@ -34,8 +35,6 @@ public class HomeWork2 {
     }
   }
 
-  static Scanner scanner = new Scanner(System.in);
-
   static void runMethod(String methodName) {
     try {
       Class<?> tmp = Class.forName(methodName);
@@ -58,6 +57,7 @@ public class HomeWork2 {
     System.out.println("8. WordGuess");
     System.out.println("9. DateUtil");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "Matrices",
@@ -79,6 +79,7 @@ public class HomeWork2 {
     System.out.println("3. Length of a Running Number Sequence (Recursive)");
     System.out.println("4. GCD (Recursive)");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {"Factorial", "Fibonacci", "LengthNumber", "GCD"};
     runMethod("hw2.bai2." + selection[select - 1]);
@@ -90,8 +91,8 @@ public class HomeWork2 {
     System.out.println("3. Bubble Sort");
     System.out.println("4. Selection Sort");
     System.out.println("5. Insertion Sort");
-
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "LinearSearch", "RecursiveBinarySearch", "BubbleSort", "SelectionSort", "InsertionSort"
@@ -106,6 +107,7 @@ public class HomeWork2 {
     System.out.println("4. Greatest Common Divisor (GCD)");
 
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {"PerfectNumberList", "PrimeList", "PerfectPrimeFactorList", "Gcd"};
 

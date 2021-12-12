@@ -11,6 +11,7 @@ public class HomeWork1 {
       System.out.println("3. Exercises on String and char Operations");
       System.out.println("0. Exit");
       System.out.println("Choose file to exec: ");
+      Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
       switch (select) {
         case 1:
@@ -33,8 +34,6 @@ public class HomeWork1 {
     }
   }
 
-  static Scanner scanner = new Scanner(System.in);
-
   static void runMethod(String className) {
     try {
       Class<?> tmp = Class.forName(className);
@@ -54,6 +53,7 @@ public class HomeWork1 {
     System.out.println("5. BoxPattern");
     System.out.println("6. HillPattern");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "SquarePattern",
@@ -87,6 +87,7 @@ public class HomeWork1 {
     System.out.println("11. Oct2Dec");
     System.out.println("12. RadixN2Dec");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "ReverseString",

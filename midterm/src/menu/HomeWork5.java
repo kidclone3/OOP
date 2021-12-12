@@ -11,6 +11,7 @@ public class HomeWork5 {
       System.out.println("3. Exercises on String and char Operations");
       System.out.println("0. Exit");
       System.out.println("Choose file to exec: ");
+      Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
       switch (select) {
         case 1:
@@ -30,8 +31,6 @@ public class HomeWork5 {
     }
   }
 
-  static Scanner scanner = new Scanner(System.in);
-
   static void runMethod(String className) {
     try {
       Class<?> tmp = Class.forName(className);
@@ -49,6 +48,7 @@ public class HomeWork5 {
     System.out.println("4. Superclass Shape");
     System.out.println("5. Superclass Animal");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "circle.TestCylinder",
@@ -64,6 +64,7 @@ public class HomeWork5 {
     System.out.println("1. The Point and Line Classes");
     System.out.println("2. The Circle and Cylinder Classes Using Composition");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
             "point.TestLineSub",

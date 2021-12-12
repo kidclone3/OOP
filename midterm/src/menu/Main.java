@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
     while (true) {
       System.out.println("1. Homework 1");
       System.out.println("2. Homework 2");
-      System.out.println("3. Homewore 3");
-      System.out.println("4. Homewore 4");
-      System.out.println("5. Homewore 5");
-      System.out.println("6. Homewore 6");
+      System.out.println("3. Homework 3");
+      System.out.println("4. Homework 4");
+      System.out.println("5. Homework 5");
+      System.out.println("6. Homework 6");
       System.out.println("0. Exit");
       System.out.println("Choose file to exec: ");
+      Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
       switch (select) {
         case 1:

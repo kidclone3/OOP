@@ -9,8 +9,6 @@ public class HomeWork4 {
     Bai1();
   }
 
-  static Scanner scanner = new Scanner(System.in);
-
   static void runMethod(String methodName) {
     try {
       Class<?> tmp = Class.forName(methodName);
@@ -31,6 +29,7 @@ public class HomeWork4 {
     System.out.println("6. Bouncing Balls - Ball and Container Classes");
     System.out.println("7. The Ball and Player Classes");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "mycomplexclass.TestMyComplex",

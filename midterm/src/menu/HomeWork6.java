@@ -9,6 +9,7 @@ public class HomeWork6 {
       System.out.println("1. Exercises on Polymorphism, Abstract Classes and Interfaces");
       System.out.println("0. Exit");
       System.out.println("Choose file to exec: ");
+      Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
       switch (select) {
         case 1:
@@ -42,6 +43,7 @@ public class HomeWork6 {
     System.out.println("3. Movable Interface");
     System.out.println("4. Abstract Superclass Animal");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "shape.TestDriver",

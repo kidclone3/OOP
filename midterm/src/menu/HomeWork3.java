@@ -8,6 +8,7 @@ public class HomeWork3 {
     System.out.println("1. Exercises on Classes");
     System.out.println("2. Exercises on Composition");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     switch (select) {
       case 1:
@@ -24,8 +25,6 @@ public class HomeWork3 {
         break;
     }
   }
-
-  static Scanner scanner = new Scanner(System.in);
 
   static void runMethod(String methodName) {
     try {
@@ -49,6 +48,7 @@ public class HomeWork3 {
     System.out.println("8. The Time Class");
     System.out.println("9. The Ball Class");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "circle.TestCircle",
@@ -77,6 +77,7 @@ public class HomeWork3 {
     System.out.println("9. The MyTriangle and MyPoint Classes");
     System.out.println("10. The MyRectangle and MyPoint Classes");
     System.out.println("Choose file to exec: ");
+    Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
     String[] selection = {
       "theauthorandbookclasses.TestBook",
