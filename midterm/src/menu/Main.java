@@ -15,6 +15,7 @@ public class Main {
       System.out.println("Choose file to exec: ");
       Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
+      scanner.nextLine();
       switch (select) {
         case 1:
           HomeWork1.main(null);
@@ -32,7 +33,7 @@ public class Main {
           HomeWork5.main(null);
           break;
         case 6:
-          HomeWork5.main(null);
+          HomeWork6.main(null);
           break;
         case 0:
           System.out.println("Bye");

@@ -11,6 +11,7 @@ public class HomeWork6 {
       System.out.println("Choose file to exec: ");
       Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
+      scanner.nextLine();
       switch (select) {
         case 1:
           Bai1();
@@ -45,6 +46,7 @@ public class HomeWork6 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {
       "shape.TestDriver",
       "geometricobject.TestResizableCircle",

@@ -31,6 +31,7 @@ public class HomeWork4 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {
       "mycomplexclass.TestMyComplex",
       "mypolinomialclass.TestMyPolynomial",
@@ -42,5 +43,4 @@ public class HomeWork4 {
     };
     runMethod("hw4.bai1." + selection[select - 1]);
   }
-
 }

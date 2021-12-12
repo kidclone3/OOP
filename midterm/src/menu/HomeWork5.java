@@ -13,6 +13,7 @@ public class HomeWork5 {
       System.out.println("Choose file to exec: ");
       Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
+      scanner.nextLine();
       switch (select) {
         case 1:
           Bai1();
@@ -50,6 +51,7 @@ public class HomeWork5 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {
       "circle.TestCylinder",
       "people.TestPerson",
@@ -66,10 +68,8 @@ public class HomeWork5 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
-    String[] selection = {
-            "point.TestLineSub",
-            "circle.CylinderTest"
-    };
-    runMethod("hw5.part2." + selection[select-1]);
+    scanner.nextLine();
+    String[] selection = {"point.TestLineSub", "circle.CylinderTest"};
+    runMethod("hw5.part2." + selection[select - 1]);
   }
 }

@@ -12,6 +12,7 @@ public class HomeWork2 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     switch (select) {
       case 1:
         Bai1();
@@ -59,6 +60,7 @@ public class HomeWork2 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {
       "Matrices",
       "TrigonometricSeries",
@@ -81,6 +83,7 @@ public class HomeWork2 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {"Factorial", "Fibonacci", "LengthNumber", "GCD"};
     runMethod("hw2.bai2." + selection[select - 1]);
   }
@@ -94,6 +97,7 @@ public class HomeWork2 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {
       "LinearSearch", "RecursiveBinarySearch", "BubbleSort", "SelectionSort", "InsertionSort"
     };
@@ -109,6 +113,7 @@ public class HomeWork2 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {"PerfectNumberList", "PrimeList", "PerfectPrimeFactorList", "Gcd"};
 
     runMethod("hw2.bai4." + selection[select - 1]);

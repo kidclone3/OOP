@@ -13,6 +13,7 @@ public class HomeWork1 {
       System.out.println("Choose file to exec: ");
       Scanner scanner = new Scanner(System.in);
       int select = scanner.nextInt();
+      scanner.nextLine();
       switch (select) {
         case 1:
           Bai1();
@@ -55,6 +56,7 @@ public class HomeWork1 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {
       "SquarePattern",
       "CheckerPattern",
@@ -69,7 +71,7 @@ public class HomeWork1 {
   public static void Bai2() {
     System.out.println("1. Factorial");
     //    System.out.println("Choose file to exec: ");
-    //    int select = scanner.nextInt();
+    //    int select = scanner.nextInt(); scanner.nextLine();
     runMethod("hw1.bai2." + "Factorial");
   }
 
@@ -89,6 +91,7 @@ public class HomeWork1 {
     System.out.println("Choose file to exec: ");
     Scanner scanner = new Scanner(System.in);
     int select = scanner.nextInt();
+    scanner.nextLine();
     String[] selection = {
       "ReverseString",
       "CountVowelsDigits",
