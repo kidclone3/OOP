@@ -1,0 +1,70 @@
+1
+2020
+8
+19000321
+Ha Van AnH
+23 12 2003
+true
+vang@hotcom
+22 Nguyen trai Hanoi
+8.5
+Hoa hoc
+19000465
+Truong Van binh
+20 2 2001
+false
+binhgg@huscom
+22 thanh xuan Hanoi
+9.6
+Toan hoc
+19000539
+Le   thi NguyeT NGa
+12 6 2005
+true
+NgaKieu@huscom
+10 thanh xuan Hanoi
+7.9
+Toan hoc
+08000512
+Truong  thi Trang
+12 6 2005
+true
+TraTrng@huscom
+10 Hoan Kiem Hanoi
+Van phong
+790
+27 4 2010
+19000539
+Nguyen Van Hoang
+10 6 2000
+true
+vhoang@huscom
+72 nguyen trai thanh xuan Hanoi
+5.7
+Toan hoc
+09000341
+tran thi Hoai
+12 6 2001
+true
+HoaTran@huscom
+10 Hoang Hoa Tham, Hanoi
+Giao vu
+1250
+27 7 2010
+19000423
+Nguyen Binh Hoa
+20 2 1999
+false
+hoabinhng@huscom
+22 Le Thanh Nghi, thanh xuan Hanoi
+7.5
+Vat ly
+09000357
+Tran Nguyen Trung
+12 6 2001
+true
+HoaTran@huscom
+10 Hoang Hoa Tham, Hanoi
+Giao vu
+1000
+27 7 2017

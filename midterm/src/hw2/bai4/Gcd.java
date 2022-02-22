@@ -12,7 +12,7 @@ public class Gcd {
     int numberb = in.nextInt();
     System.out.println(
         gcd(numbera, numberb) + " is the greatest factor that divides both a and b ");
-    in.close();
+//    in.close();
   }
 
   public static int gcd(int a, int b) {

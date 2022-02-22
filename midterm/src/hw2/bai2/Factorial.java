@@ -8,7 +8,7 @@ public class Factorial {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter any number : ");
     int n = in.nextInt();
-    in.close();
+//    in.close();
     System.out.print(factorial(n));
   }
 

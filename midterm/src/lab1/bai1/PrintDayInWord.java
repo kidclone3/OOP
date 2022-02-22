@@ -1,4 +1,4 @@
-package lab1;
+package lab1.bai1;
 
 public class PrintDayInWord {
     public static void main(String[] args) {

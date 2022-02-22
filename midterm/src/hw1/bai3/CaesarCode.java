@@ -8,7 +8,7 @@ public class CaesarCode {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter a plaintext string: ");
     String inStr = in.nextLine().toUpperCase();
-    in.close();
+//    in.close();
     int n = 3;
     String ciphertext = "";
     for (int i = 0; i < inStr.length(); i++) {

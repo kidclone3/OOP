@@ -8,7 +8,7 @@ public class Oct2Dec {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter a Octal string: ");
     String inStr = in.nextLine();
-    in.close();
+//    in.close();
     System.out.println(
         "The equivalent decimal number for octal \"" + inStr + "\" is: " + oct2Dec(inStr));
   }

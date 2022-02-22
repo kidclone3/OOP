@@ -1,0 +1,75 @@
+10
+1
+001
+Nguyễn Văn Nam
+24
+namnv@dslab.fpt.vn
+10000000
+14
+1
+002
+Nguyễn Văn Hoàng
+25
+hoangnv@smlab.fpt.vn
+12000000
+4
+0
+003
+Đỗ Huyền Anh
+26
+anhdh@test.fpt.vn
+9000000
+40
+1
+004
+Nguyễn Thị Thu Mai
+26
+mntt@dslab.fpt.vn
+11000000
+5.5
+0
+005
+Hoàng Thanh Tuấn
+27
+tuanht@test.fpt.vn
+9000000
+23
+1
+006
+Nguyễn Việt Quân
+28
+quannv@smlab@fpt.vn
+13000000
+2
+0
+007
+Hoàng Thi Yến
+23
+yenht@test.fpt.vn
+14000000
+30
+1
+008
+Nguyễn Văn Nhân
+24
+nhannv@dslab.fpt.vn
+12000000
+10
+1
+009
+Nguyễn Văn Huân
+22
+huannv@dslab.fpt.vn
+10000000
+4
+0
+010
+Hoàng Thu Dương
+28
+duonght@test.fpt.vn
+13000000
+33
+
+
+
+

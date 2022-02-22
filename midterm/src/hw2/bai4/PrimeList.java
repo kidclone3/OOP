@@ -8,7 +8,7 @@ public class PrimeList {
     Scanner in = new Scanner(System.in);
     System.out.print("Please enter the upper bound : ");
     int number = in.nextInt();
-    in.close();
+//    in.close();
     int count = 0;
     for (int idx = 2; idx <= number; idx++)
       if (isPrime(idx)) {

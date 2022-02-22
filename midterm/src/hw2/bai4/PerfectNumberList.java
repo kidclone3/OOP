@@ -8,7 +8,7 @@ public class PerfectNumberList {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the upper bound: ");
     int number = in.nextInt();
-    in.close();
+//    in.close();
     int countPerfect = 0;
     System.out.println("These numbers are perfect : ");
     for (int idx = 1; idx <= number; idx++)

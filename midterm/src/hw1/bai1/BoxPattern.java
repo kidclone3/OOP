@@ -8,8 +8,7 @@ public class BoxPattern {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the size: ");
     int size = in.nextInt();
-    in.close();
-
+//    in.close();
     System.out.println("Box A: ");
     BoxPatternA(size);
 

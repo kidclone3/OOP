@@ -1,0 +1,8 @@
+Student Code: 19000321: Ha Van Anh; B.day: 23/12/2003 (Male) Mail: vang@hotcom; Addr:22 Nguyen trai Hanoi; AVG score:8.5 Majors: Hoa hoc
+Student Code: 19000465: Truong Van Binh; B.day: 20/02/2001 (FeMale) Mail: binhgg@huscom; Addr:22 thanh xuan Hanoi; AVG score:9.6 Majors: Toan hoc
+Student Code: 19000423: Nguyen Binh Hoa; B.day: 20/02/1999 (FeMale) Mail: hoabinhng@huscom; Addr:22 Le Thanh Nghi, thanh xuan Hanoi; AVG score:7.5 Majors: Vat ly
+Staff Code: 09000341: Tran Thi Hoai; B.day: 12/06/2001 (Male) Mail: HoaTran@huscom; Addr:10 Hoang Hoa Tham, Hanoi; Recruit.:2010; Salary:1250.0; Dept:Giao vu
+Student Code: 19000539: Nguyen Van Hoang; B.day: 10/06/2000 (Male) Mail: vhoang@huscom; Addr:72 nguyen trai thanh xuan Hanoi; AVG score:5.7 Majors: Toan hoc
+Student Code: 19000539: Le Thi Nguyet Nga; B.day: 12/06/2005 (Male) Mail: NgaKieu@huscom; Addr:10 thanh xuan Hanoi; AVG score:7.9 Majors: Toan hoc
+Staff Code: 08000512: Truong Thi Trang; B.day: 12/06/2005 (Male) Mail: TraTrng@huscom; Addr:10 Hoan Kiem Hanoi; Recruit.:2010; Salary:790.0; Dept:Van phong
+Staff Code: 09000357: Tran Nguyen Trung; B.day: 12/06/2001 (Male) Mail: HoaTran@huscom; Addr:10 Hoang Hoa Tham, Hanoi; Recruit.:2017; Salary:1000.0; Dept:Giao vu

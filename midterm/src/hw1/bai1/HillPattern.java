@@ -8,7 +8,7 @@ public class HillPattern {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the rows: ");
     int numberRows = in.nextInt();
-    in.close();
+//    in.close();
 
     System.out.println("Hill A");
     HillPatternA(numberRows);

@@ -1,22 +1,11 @@
 package menu;
 
-import java.lang.reflect.Method;
-import java.util.Scanner;
+import static menu.RunMethod.runMethod;
 
-public class HomeWork4 {
+public class HomeWork4 implements iScanner, RunMethod{
   public static void main(String[] args) {
     System.out.println("1. More Exercises on Classes");
     Bai1();
-  }
-
-  static void runMethod(String methodName) {
-    try {
-      Class<?> tmp = Class.forName(methodName);
-      Method method = tmp.getDeclaredMethod("main", String[].class);
-      method.invoke(null, new Object[] {null});
-    } catch (Throwable e) {
-      System.err.println(e);
-    }
   }
 
   public static void Bai1() {
@@ -29,9 +18,8 @@ public class HomeWork4 {
     System.out.println("6. Bouncing Balls - Ball and Container Classes");
     System.out.println("7. The Ball and Player Classes");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     String[] selection = {
       "mycomplexclass.TestMyComplex",
       "mypolinomialclass.TestMyPolynomial",
@@ -41,6 +29,6 @@ public class HomeWork4 {
       "ballandcontainerclass.TestBall",
       "ballandplayer.TestPlayer"
     };
-    runMethod("hw4.bai1." + selection[select - 1]);
+    runMethod("hw4." + selection[select - 1]);
   }
 }

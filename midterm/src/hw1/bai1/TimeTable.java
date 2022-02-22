@@ -9,7 +9,7 @@ public class TimeTable {
     int size;
     System.out.print("Enter the size: ");
     size = in.nextInt();
-    in.close();
+//    in.close();
 
     for (int col = 1; col <= size; ++col) {
       if (col == 1) {

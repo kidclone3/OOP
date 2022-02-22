@@ -1,4 +1,4 @@
-package lab1;
+package lab1.bai1;
 
 // 1.2
 public class CheckOddEven {

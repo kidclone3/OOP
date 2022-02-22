@@ -9,7 +9,7 @@ public class SquarePattern {
     int size;
     System.out.print("Enter the size: ");
     size = in.nextInt();
-    in.close();
+//    in.close();
 
     for (int row = 1; row <= size; row++) {
       for (int col = 1; col <= size; col++) {

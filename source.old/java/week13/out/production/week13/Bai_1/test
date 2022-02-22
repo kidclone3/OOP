@@ -1,0 +1,4 @@
+taffCard [tax=0.03, getTax()=0.03, getId()=0002, getYear()=1989, getDays()=3.5, getPrice()=11.6]
+SStudentCard [fee=11.0, getFee()=11.0, getId()=0001, getYear()=1990, getDays()=3.0, getPrice()=12.5]
+StaffCard [tax=0.07, getTax()=0.07, getId()=0004, getYear()=1989, getDays()=3.5, getPrice()=14.0]
+StudentCard [fee=3.0, getFee()=3.0, getId()=0003, getYear()=1990, getDays()=4.5, getPrice()=12.0]

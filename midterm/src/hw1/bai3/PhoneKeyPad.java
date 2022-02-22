@@ -8,7 +8,7 @@ class PhoneKeyPad {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the String: ");
     String inStr = in.next().toLowerCase();
-    in.close();
+//    in.close();
 
     PhoneKeyPadIfElse(inStr);
     PhoneKeyPadSwitchCase(inStr);

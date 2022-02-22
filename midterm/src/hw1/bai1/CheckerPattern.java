@@ -9,7 +9,7 @@ public class CheckerPattern {
     int size;
     System.out.print("Enter the size: ");
     size = in.nextInt();
-    in.close();
+//    in.close();
 
     for (int row = 1; row <= size; row++) {
       if (row % 2 == 0) {

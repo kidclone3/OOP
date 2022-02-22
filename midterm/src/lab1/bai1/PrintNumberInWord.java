@@ -1,4 +1,4 @@
-package lab1;
+package lab1.bai1;
 
 // 1.3
 public class PrintNumberInWord {

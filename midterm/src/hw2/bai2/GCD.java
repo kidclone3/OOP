@@ -16,7 +16,7 @@ public class GCD {
     System.out.print("Enter number a and b: ");
     int a = in.nextInt();
     int b = in.nextInt();
-    in.close();
+//    in.close();
     System.out.println("GCD of " + a + " and " + b + " is " + gcd(a, b));
   }
 }

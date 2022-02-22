@@ -1,4 +1,4 @@
-package lab1;
+package lab1.bai1;
 
 // 1.1
 public class CheckPassFail {

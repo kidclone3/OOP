@@ -8,7 +8,7 @@ public class PerfectPrimeFactorList {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the upper bound : ");
     int number = in.nextInt();
-    in.close();
+//    in.close();
     int count = 0;
     System.out.println("These numbers are equals to the product of prime factors : ");
     for (int idx = 3; idx <= number; idx++)

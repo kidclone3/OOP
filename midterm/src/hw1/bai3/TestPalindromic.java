@@ -17,7 +17,7 @@ public class TestPalindromic {
     String phrase = in.nextLine().toLowerCase();
     System.out.println(
         "This phrase is " + (TestPalindromicPhrase(phrase) ? "palindromic" : "not palindromic"));
-    in.close();
+//    in.close();
   }
 
   public static boolean TestPalindromicWord(String inStr) {

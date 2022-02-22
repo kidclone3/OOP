@@ -22,6 +22,6 @@ public class NumberGuess {
       count++;
     }
     System.out.print("You got it in " + count + " trials !");
-    in.close();
+//    in.close();
   }
 }

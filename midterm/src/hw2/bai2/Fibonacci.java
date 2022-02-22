@@ -8,7 +8,7 @@ public class Fibonacci {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter the number of Fibonacci : ");
     int n = in.nextInt();
-    in.close();
+//    in.close();
     System.out.println(fibonacci(n));
   }
 

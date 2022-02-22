@@ -8,7 +8,7 @@ public class CountVowelsDigits {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter a String: ");
     String inStr = in.nextLine();
-    in.close();
+//    in.close();
 
     char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 

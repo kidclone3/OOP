@@ -8,7 +8,7 @@ public class LengthNumber {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter number :");
     int n = in.nextInt();
-    in.close();
+//    in.close();
     System.out.println("The length number sequence is : ");
     System.out.print(length(n));
   }

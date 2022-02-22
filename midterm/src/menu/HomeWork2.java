@@ -1,18 +1,16 @@
 package menu;
 
-import java.lang.reflect.Method;
-import java.util.Scanner;
+import static menu.RunMethod.runMethod;
 
-public class HomeWork2 {
+public class HomeWork2 implements iScanner{
   public static void main(String[] args) {
     System.out.println("1. More Exercises");
     System.out.println("2. Exercises on Recursion");
     System.out.println("3. Exercises on Algorithms - Sorting and Searching");
     System.out.println("4. Exercises on Algorithms - Number Theory");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     switch (select) {
       case 1:
         Bai1();
@@ -36,16 +34,6 @@ public class HomeWork2 {
     }
   }
 
-  static void runMethod(String methodName) {
-    try {
-      Class<?> tmp = Class.forName(methodName);
-      Method method = tmp.getDeclaredMethod("main", String[].class);
-      method.invoke(null, new Object[] {null});
-    } catch (Throwable e) {
-      System.err.println(e);
-    }
-  }
-
   public static void Bai1() {
 
     System.out.println("1. Matrices (2D Arrays)");
@@ -58,9 +46,8 @@ public class HomeWork2 {
     System.out.println("8. WordGuess");
     System.out.println("9. DateUtil");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     String[] selection = {
       "Matrices",
       "TrigonometricSeries",
@@ -81,9 +68,8 @@ public class HomeWork2 {
     System.out.println("3. Length of a Running Number Sequence (Recursive)");
     System.out.println("4. GCD (Recursive)");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     String[] selection = {"Factorial", "Fibonacci", "LengthNumber", "GCD"};
     runMethod("hw2.bai2." + selection[select - 1]);
   }
@@ -95,9 +81,8 @@ public class HomeWork2 {
     System.out.println("4. Selection Sort");
     System.out.println("5. Insertion Sort");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     String[] selection = {
       "LinearSearch", "RecursiveBinarySearch", "BubbleSort", "SelectionSort", "InsertionSort"
     };
@@ -111,9 +96,8 @@ public class HomeWork2 {
     System.out.println("4. Greatest Common Divisor (GCD)");
 
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     String[] selection = {"PerfectNumberList", "PrimeList", "PerfectPrimeFactorList", "Gcd"};
 
     runMethod("hw2.bai4." + selection[select - 1]);

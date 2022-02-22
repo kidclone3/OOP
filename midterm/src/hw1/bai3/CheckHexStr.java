@@ -9,7 +9,7 @@ public class CheckHexStr {
 
     System.out.print("Enter a hex string: ");
     String inStr = in.nextLine();
-    in.close();
+//    in.close();
 
     System.out.println(inStr + " is " + (CheckHexStr(inStr) ? "" : "NOT") + " a hex string");
   }

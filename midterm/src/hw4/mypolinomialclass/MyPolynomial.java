@@ -19,92 +19,50 @@ public class MyPolynomial {
   }
 
   public double evaluate(double x) {
-    double sum = 0.0;
+    if (coeffs.length == 0) return 0;
+    double sum = coeffs[0];
     double item = 1.0;
-    for (int i = 0; i < coeffs.length; i++) {
-      item *= (i == 0 ? 1.0 : x);
+    for (int i = 1; i < coeffs.length; i++) {
+      item *= x;
       sum += item * coeffs[i];
     }
     return sum;
   }
 
-//  public MyPolynomial add(MyPolynomial another) {
-//    MyPolynomial result = this;
-//    if (result.getDegree() < another.getDegree()) {
-//      result = another;
-//      another = this;
-//    }
-//
-//    double[] resultCoeffs = result.getCoeffs();
-//    double[] anotherCoeffs = another.getCoeffs();
-//    for (int i = 0; i < resultCoeffs.length; i++) {
-//      if (i > anotherCoeffs.length - 1) {
-//        continue;
-//      }
-//      resultCoeffs[i] += anotherCoeffs[i];
-//    }
-//    return new MyPolynomial(resultCoeffs);
-//  }
-public MyPolynomial add(MyPolynomial right) {
-  int deg1 = this.getDegree();
-  int deg2 = right.getDegree();
-  double[] coeffs2 = right.getCoeffs();
-  if (deg1 >= deg2) {
-    for (int i = 0; i <= deg2; i++) {
-      coeffs[i] += coeffs2[i];
-    }
-  } else {
-    int degNew = deg2;
-    double[] sum = new double[degNew + 1];
-
-    for (int i = 0; i <= deg2; i++) {
-      sum[i] = coeffs2[i];
+  public MyPolynomial add(MyPolynomial another) {
+    MyPolynomial result = this;
+    if (result.getDegree() < another.getDegree()) {
+      result = another;
+      another = this;
     }
 
-    for (int i = 0; i <= deg1; i++) {
-      sum[i] += coeffs[i];
-    }
-
-//    this.setCoeffs(sum);
-  }
-  return this;
-}
-  public MyPolynomial multiply(MyPolynomial another) {
-    double[] resultCoeffs = new double[this.getDegree() + another.getDegree() + 1];
+    double[] resultCoeffs = result.getCoeffs();
     double[] anotherCoeffs = another.getCoeffs();
     for (int i = 0; i < resultCoeffs.length; i++) {
-      double tmp = 0.0;
-      for (int j = 0; j <= i; j++) {
-        if (j > coeffs.length - 1) {
-          continue;
-        }
-        if (i - j > anotherCoeffs.length - 1) {
-          continue;
-        }
-        tmp += coeffs[j] * anotherCoeffs[i - j];
+      if (i > anotherCoeffs.length - 1) {
+        continue;
       }
-      resultCoeffs[i] = tmp;
+      resultCoeffs[i] += anotherCoeffs[i];
     }
     return new MyPolynomial(resultCoeffs);
   }
 
-
-//  public MyPolynomial multiply(MyPolynomial right) {
-//    int deg1 = this.getDegree();
-//    int deg2 = right.getDegree();
-//    int degNew = deg1 + deg2;
-//    double[] coeffs2 = right.getCoeffs();
-//    double[] mul = new double[degNew + 1];
-//    for (int k = 0; k <= degNew; k++) {
-//      mul[k] = 0.0;
-//    }
-//    for (int i = 0; i <= deg1; i++) {
-//      for (int j = 0; j <= deg2; j++) {
-//        mul[i + j] += coeffs[i] * coeffs2[j];
-//      }
-//    }
-//    return new MyPolynomial(mul);
-//  }
+  public MyPolynomial multiply(MyPolynomial right) {
+    int deg1 = this.getDegree();
+    int deg2 = right.getDegree();
+    int degNew = deg1 + deg2;
+    double[] coeffs2 = right.getCoeffs();
+    double[] mul = new double[degNew + 1];
+    for (int k = 0; k <= degNew; k++) {
+      mul[k] = 0.0;
+    }
+    for (int i = 0; i <= deg1; i++) {
+      for (int j = 0; j <= deg2; j++) {
+        mul[i + j] += coeffs[i] * coeffs2[j];
+      }
+    }
+    return new MyPolynomial(mul);
+  }
 
   public String toString() {
     StringBuilder result = new StringBuilder();

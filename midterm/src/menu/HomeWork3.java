@@ -1,16 +1,14 @@
 package menu;
 
-import java.lang.reflect.Method;
-import java.util.Scanner;
+import static menu.RunMethod.runMethod;
 
-public class HomeWork3 {
+public class HomeWork3 implements iScanner{
   public static void main(String[] args) {
     System.out.println("1. Exercises on Classes");
     System.out.println("2. Exercises on Composition");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     switch (select) {
       case 1:
         Bai1();
@@ -27,16 +25,6 @@ public class HomeWork3 {
     }
   }
 
-  static void runMethod(String methodName) {
-    try {
-      Class<?> tmp = Class.forName(methodName);
-      Method method = tmp.getDeclaredMethod("main", String[].class);
-      method.invoke(null, new Object[] {null});
-    } catch (Throwable e) {
-      System.err.println(e);
-    }
-  }
-
   public static void Bai1() {
 
     System.out.println("1. An Introduction to Classes and Instances by Example - The Circle Class");
@@ -49,9 +37,8 @@ public class HomeWork3 {
     System.out.println("8. The Time Class");
     System.out.println("9. The Ball Class");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     String[] selection = {
       "circle.TestCircle",
       "anothercircleclass.TestMain",
@@ -79,9 +66,8 @@ public class HomeWork3 {
     System.out.println("9. The MyTriangle and MyPoint Classes");
     System.out.println("10. The MyRectangle and MyPoint Classes");
     System.out.println("Choose file to exec: ");
-    Scanner scanner = new Scanner(System.in);
-    int select = scanner.nextInt();
-    scanner.nextLine();
+    int select = 0;
+    select = scanner.nextInt();
     String[] selection = {
       "theauthorandbookclasses.TestBook",
       "theauthorandbookclassesagain.TestBook",

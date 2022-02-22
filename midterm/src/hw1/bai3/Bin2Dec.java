@@ -8,7 +8,7 @@ public class Bin2Dec {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter a Binary string: ");
     String inStr = in.nextLine().toLowerCase();
-    in.close();
+//    in.close();
     int answer = 0;
     System.out.println(
         "The equivalent decimal number for binary \"" + inStr + "\" is: " + bin2Dec(inStr));

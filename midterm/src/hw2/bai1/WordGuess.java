@@ -33,7 +33,7 @@ public class WordGuess {
     System.out.println("Key in one character or your guess word: " + word);
     System.out.println("Congratulation!");
     System.out.print("You got in " + count + " trials");
-    in.close();
+//    in.close();
   }
 
   public static String stringArray(Character[] array) {

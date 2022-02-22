@@ -8,7 +8,7 @@ public class Hex2Dec {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter a Hexadecimal string: ");
     String inStr = in.nextLine();
-    in.close();
+//    in.close();
     System.out.println(
         "The equivalent decimal number for hexadecimal \"" + inStr + "\" is: " + hex2Dec(inStr));
   }

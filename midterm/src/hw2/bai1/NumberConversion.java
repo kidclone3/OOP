@@ -23,7 +23,7 @@ public class NumberConversion {
             + toRadix(inStr, inRadix, outRadix)
             + " inStr radix "
             + outRadix);
-    in.close();
+//    in.close();
   }
 
   public static String toRadix(String inStr, int inRadix, int outRadix) {

@@ -14,7 +14,7 @@ public class TestResizableCircle {
     geomObj2.resize(50);
     System.out.println(geomObj2);
     // System.out.println("Perimeter = "+geomObj2.getPerimeter());
-    // System.out.println("Area = "+geomObj2.getArea());
+//     System.out.println("Area = "+geomObj2.getArea());
 
     GeometricObject geomObj3 = (GeometricObject) geomObj2;
     System.out.println(geomObj3);

@@ -19,7 +19,7 @@ class RadixN2Dec {
 
     System.out.print("Enter a string: ");
     inStr = in.nextLine();
-    in.close();
+//    in.close();
     System.out.println(
         "The equivalent decimal number \"" + inStr + "\" is: " + radixN2Dec(radix, inStr));
   }

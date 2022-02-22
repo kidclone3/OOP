@@ -8,7 +8,7 @@ public class ExchangeCipher {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter a ciphertext string: ");
     String inStr = in.nextLine().toUpperCase();
-    in.close();
+//    in.close();
     String ciphertext = "";
     for (int i = 0; i < inStr.length(); i++) {
       char inChar = inStr.charAt(i);

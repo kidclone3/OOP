@@ -16,7 +16,7 @@ public class TrigonometricSeries {
     System.out.println(
         "The DIF betweet JDK methods Math. and the sum of cos : "
             + Math.abs(cos(x, num) - Math.cos(x)));
-    in.close();
+//    in.close();
   }
 
   public static double evaluate(double x, int num) {

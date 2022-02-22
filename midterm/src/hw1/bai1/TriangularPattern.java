@@ -8,7 +8,7 @@ public class TriangularPattern {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter the size: ");
     int size = in.nextInt();
-    in.close();
+//    in.close();
 
     System.out.println("Type A");
     TriangularPatternA(size);

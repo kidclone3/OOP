@@ -1,0 +1,29 @@
+ Danh sách nhân viên:
+Id: 001 | name: Nguyễn Văn Nam | email: namnv@dslab.fpt.vn | age: 24 | basicSalary: 10000000 | staffType: Developer | hours_OT: 14.0 | salary: 12800000
+Id: 002 | name: Nguyễn Văn Hoàng | email: hoangnv@smlab.fpt.vn | age: 25 | basicSalary: 12000000 | staffType: Developer | hours_OT: 4.0 | salary: 12800000
+Id: 003 | name: Đỗ Huyền Anh | email: anhdh@test.fpt.vn | age: 26 | basicSalary: 9000000 | staffType: Tester | no_errors: 40 | salary: 9400000
+Id: 004 | name: Nguyễn Thị Thu Mai | email: mntt@dslab.fpt.vn | age: 26 | basicSalary: 11000000 | staffType: Developer | hours_OT: 5.5 | salary: 12100000
+Id: 005 | name: Hoàng Thanh Tuấn | email: tuanht@test.fpt.vn | age: 27 | basicSalary: 9000000 | staffType: Tester | no_errors: 23 | salary: 9230000
+Id: 006 | name: Nguyễn Việt Quân | email: quannv@smlab@fpt.vn | age: 28 | basicSalary: 13000000 | staffType: Developer | hours_OT: 2.0 | salary: 13400000
+Id: 007 | name: Hoàng Thi Yến | email: yenht@test.fpt.vn | age: 23 | basicSalary: 14000000 | staffType: Tester | no_errors: 30 | salary: 14300000
+Id: 008 | name: Nguyễn Văn Nhân | email: nhannv@dslab.fpt.vn | age: 24 | basicSalary: 12000000 | staffType: Developer | hours_OT: 10.0 | salary: 14000000
+Id: 009 | name: Nguyễn Văn Huân | email: huannv@dslab.fpt.vn | age: 22 | basicSalary: 10000000 | staffType: Developer | hours_OT: 4.0 | salary: 10800000
+Id: 010 | name: Hoàng Thu Dương | email: duonght@test.fpt.vn | age: 28 | basicSalary: 13000000 | staffType: Tester | no_errors: 33 | salary: 13330000
+Danh sách nhân viên sau khi sắp xếp theo lương:
+Id: 005 | name: Hoàng Thanh Tuấn | email: tuanht@test.fpt.vn | age: 27 | basicSalary: 9000000 | staffType: Tester | no_errors: 23 | salary: 9230000
+Id: 003 | name: Đỗ Huyền Anh | email: anhdh@test.fpt.vn | age: 26 | basicSalary: 9000000 | staffType: Tester | no_errors: 40 | salary: 9400000
+Id: 009 | name: Nguyễn Văn Huân | email: huannv@dslab.fpt.vn | age: 22 | basicSalary: 10000000 | staffType: Developer | hours_OT: 4.0 | salary: 10800000
+Id: 004 | name: Nguyễn Thị Thu Mai | email: mntt@dslab.fpt.vn | age: 26 | basicSalary: 11000000 | staffType: Developer | hours_OT: 5.5 | salary: 12100000
+Id: 001 | name: Nguyễn Văn Nam | email: namnv@dslab.fpt.vn | age: 24 | basicSalary: 10000000 | staffType: Developer | hours_OT: 14.0 | salary: 12800000
+Id: 002 | name: Nguyễn Văn Hoàng | email: hoangnv@smlab.fpt.vn | age: 25 | basicSalary: 12000000 | staffType: Developer | hours_OT: 4.0 | salary: 12800000
+Id: 010 | name: Hoàng Thu Dương | email: duonght@test.fpt.vn | age: 28 | basicSalary: 13000000 | staffType: Tester | no_errors: 33 | salary: 13330000
+Id: 006 | name: Nguyễn Việt Quân | email: quannv@smlab@fpt.vn | age: 28 | basicSalary: 13000000 | staffType: Developer | hours_OT: 2.0 | salary: 13400000
+Id: 008 | name: Nguyễn Văn Nhân | email: nhannv@dslab.fpt.vn | age: 24 | basicSalary: 12000000 | staffType: Developer | hours_OT: 10.0 | salary: 14000000
+Id: 007 | name: Hoàng Thi Yến | email: yenht@test.fpt.vn | age: 23 | basicSalary: 14000000 | staffType: Tester | no_errors: 30 | salary: 14300000
+Danh sách nhân viên Phòng khoa học dữ liệu làm vượt giờ nhiều hơn số giờ trung bình
+8.375
+Id: 001 | name: Nguyễn Văn Nam | email: namnv@dslab.fpt.vn | age: 24 | basicSalary: 10000000 | staffType: Developer | hours_OT: 14.0 | salary: 12800000
+Id: 008 | name: Nguyễn Văn Nhân | email: nhannv@dslab.fpt.vn | age: 24 | basicSalary: 12000000 | staffType: Developer | hours_OT: 10.0 | salary: 14000000
+Danh sách nhân viên kiểm thử có mức lương cao hơn mức lương trung bình của lập trình viên
+Id: 007 | name: Hoàng Thi Yến | email: yenht@test.fpt.vn | age: 23 | basicSalary: 14000000 | staffType: Tester | no_errors: 30 | salary: 14300000
+Id: 010 | name: Hoàng Thu Dương | email: duonght@test.fpt.vn | age: 28 | basicSalary: 13000000 | staffType: Tester | no_errors: 33 | salary: 13330000

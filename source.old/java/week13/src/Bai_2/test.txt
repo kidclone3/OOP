@@ -1,0 +1,65 @@
+Failed tests
+Test 1: test 1
+Test 2: test 2
+Test 3: test3
+Test 4: test 4
+Test 5: test 5
+Test 6: test 6
+Test 1: test 1
+Incorrect program output
+--- Input ---
+ 0
+
+--- Program output ---
+MainCar.java:21: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carMang.readData("data.txt");
+			                                      ^
+MainCar.java:29: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+				ArrayList<Car> cars = carMang.readData("data1.txt");
+				                                      ^
+MainCar.java:37: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carMang.readData("data.txt");
+			                                      ^
+MainCar.java:45: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carManag.readData("data.txt");
+			                                       ^
+MainCar.java:52: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carManag.readData("data1.txt");
+			                                       ^
+MainCar.java:59: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carManag.readData("data.txt");
+			                                       ^
+6 errors
+Error: Could not find or load main class MainCar
+Caused by: java.lang.ClassNotFoundException: MainCar
+
+--- Expected output (exact text)---
+210.0 660.0 420.0 312.0
+
+Test 2: test 2
+Incorrect program output
+--- Input ---
+ 1
+
+--- Program output ---
+MainCar.java:21: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carMang.readData("data.txt");
+			                                      ^
+MainCar.java:29: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+				ArrayList<Car> cars = carMang.readData("data1.txt");
+				                                      ^
+MainCar.java:37: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carMang.readData("data.txt");
+			                                      ^
+MainCar.java:45: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carManag.readData("data.txt");
+			                                       ^
+MainCar.java:52: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carManag.readData("data1.txt");
+			                                       ^
+MainCar.java:59: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+			ArrayList<Car> cars = carManag.readData("data.txt");
+			                                       ^
+6 errors
+Error: Could not find or load main class MainCar
+Caused by: java.lang.ClassNotFoundException: MainCar
